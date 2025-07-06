@@ -1,5 +1,10 @@
 # 👻 Ghost
 
+> 🌍 **Live Version:** [https://yourusername.github.io/ghost-v2](https://yourusername.github.io/ghost-v2)
+
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/state-breathing-ghostwhite)
+
 **Ghost** is a browser-native, reactive spectral artifact — part presence engine, part ambient ritual. Designed with **Three.js** and **GLSL shaders**, it responds to breath, gaze, motion, and entropy to create a living digital entity.
 
 ---
