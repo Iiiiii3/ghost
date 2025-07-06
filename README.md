@@ -1,6 +1,6 @@
 # 👻 Ghost
 
-> 🌍 **Live Version:** [https://yourusername.github.io/ghost-v2](https://yourusername.github.io/ghost-v2)
+> 🌍 **Live Version:** [https://yourusername.github.io/ghost-v2](https://liiiii3.github.io/ghost-v2)
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/state-breathing-ghostwhite)
