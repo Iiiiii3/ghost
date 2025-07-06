@@ -3,12 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <title>Ghost</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+
     <style>
-      html, body { margin: 0; background: #000; overflow: hidden; }
-      canvas { display: block; }
+      html, body {
+        margin: 0;
+        background: #000;
+        overflow: hidden;
+        font-family: 'Orbitron', sans-serif;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      #intro {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
+        opacity: 0;
+        animation: fadeIn 4s ease forwards 1s;
+        pointer-events: none;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      canvas {
+        display: block;
+      }
     </style>
   </head>
+
   <body>
+    <div id="intro">Ghost stirs. You are seen.</div>
+
     <script src="https://cdn.jsdelivr.net/npm/three@0.154/build/three.min.js"></script>
     <script type="module" src="./main.js"></script>
   </body>
